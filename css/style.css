@@ -56,8 +56,10 @@ div img {
     display: block;
     width: 100%;
     height: 30vh;
+    object-fit: fill;
     border: 4px solid blue;
     border-radius: 30px;
+    box-sizing: border-box;
 }
 
 .label {
